@@ -1,0 +1,32 @@
+# Ignore large binary files
+usb-bundle/
+*.tar.gz
+*.zip
+
+# Ignore model data
+ollama-models/
+*.bin
+*.gguf
+
+# Docker volumes
+ollama_data/
+open_webui_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
